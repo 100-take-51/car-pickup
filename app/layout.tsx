@@ -19,7 +19,8 @@ export const metadata: Metadata = {
 
 export const metadata = {
   verification: {
-    google: "<meta name="google-site-verification" content="SrVGQndnkynEXF04wemD5TKMECAPWsK42VlQPms1k_c" />",
+    google: "SrVGQndnkynEXF04wemD5TKMECAPWsK42V1QPms1k_c",
+
   },
 };
 
