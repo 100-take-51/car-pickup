@@ -1,0 +1,33 @@
+{
+  "name": "car-pickup",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack -p 3001",
+    "build": "next build --webpack",
+    "start": "next start -p 3001",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@serwist/next": "^9.0.0",
+    "@tailwindcss/postcss": "^4.1.18",
+    "mysql2": "^3.14.0",
+    "next": "16.1.1",
+    "nodemailer": "^7.0.12",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "serwist": "^9.0.0",
+    "web-push": "^3.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/nodemailer": "^7.0.5",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/web-push": "^3.6.4",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

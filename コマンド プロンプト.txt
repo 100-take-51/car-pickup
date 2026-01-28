@@ -1,0 +1,249 @@
+Microsoft Windows [Version 10.0.26200.7623]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\100ta>git --version
+git version 2.52.0.windows.1
+
+C:\Users\100ta>cd C:\Users\100ta\car-pickup
+指定されたパスが見つかりません。
+
+C:\Users\100ta>cd C:\Users\100ta\car-pickup
+指定されたパスが見つかりません。
+
+C:\Users\100ta>git init
+Initialized empty Git repository in C:/Users/100ta/.git/
+
+C:\Users\100ta>git add .
+warning: could not open directory 'AppData/Local/Application Data/': Permission denied
+warning: could not open directory 'AppData/Local/ElevatedDiagnostics/': Permission denied
+warning: could not open directory 'AppData/Local/History/': Permission denied
+warning: could not open directory 'AppData/Local/Microsoft/Windows/INetCache/Content.IE5/': Permission denied
+warning: could not open directory 'AppData/Local/Microsoft/Windows/INetCache/Low/Content.IE5/': Permission denied
+warning: could not open directory 'AppData/Local/Microsoft/Windows/Temporary Internet Files/': Permission denied
+warning: could not open directory 'AppData/Local/Temporary Internet Files/': Permission denied
+warning: could not open directory 'AppData/Roaming/Microsoft/Windows/Start Menu/プログラム/': Permission denied
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Documents/My Music/': Permission denied
+warning: could not open directory 'Documents/My Pictures/': Permission denied
+warning: could not open directory 'Documents/My Videos/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+warning: could not open directory 'スタート メニュー/': Permission denied
+warning: in the working copy of '.vscode/argv.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'AppData/Local/AMD/CN/cmdb.blb', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'AppData/Local/AMD/CN/gallery.blb', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'AppData/Local/AMD/CN/gmdb.blb', LF will be replaced by CRLF the next time Git touches it
+error: open("AppData/Local/AMD/DxCache/04b3a33d04a66193faeacb5008b7454e10ddcf83fb41069d.bin"): Permission denied
+error: unable to index file 'AppData/Local/AMD/DxCache/04b3a33d04a66193faeacb5008b7454e10ddcf83fb41069d.bin'
+fatal: adding files failed
+
+C:\Users\100ta>git commit -m "initial commit: pickup site"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got '100ta@100take51.(none)')
+
+C:\Users\100ta>cd C:\Users\100ta
+
+C:\Users\100ta>rmdir /s /q .git
+
+C:\Users\100ta>cd C:\Users\100ta\car-pickup
+指定されたパスが見つかりません。
+
+C:\Users\100ta>C:\Users\100ta>rmdir /s /q .git
+'C:\Users\100ta' は、内部コマンドまたは外部コマンド、
+操作可能なプログラムまたはバッチ ファイルとして認識されていません。
+
+C:\Users\100ta>
+C:\Users\100ta>C:\Users\100ta>cd C:\Users\100ta\car-pickup
+'C:\Users\100ta' は、内部コマンドまたは外部コマンド、
+操作可能なプログラムまたはバッチ ファイルとして認識されていません。
+
+C:\Users\100ta>指定されたパスが見つかりません。
+'指定されたパスが見つかりません。' は、内部コマンドまたは外部コマンド、
+操作可能なプログラムまたはバッチ ファイルとして認識されていません。
+
+C:\Users\100ta>
+C:\Users\100ta>C:\Users\100ta>
+コマンドの構文が誤っています。
+C:\Users\100ta>dir C:\Users\100ta\Desktop
+ ドライブ C のボリューム ラベルは OS です
+ ボリューム シリアル番号は 58C5-B5B7 です
+
+ C:\Users\100ta\Desktop のディレクトリ
+
+2026/01/28 水  18:17    <DIR>          .
+2026/01/28 水  18:28    <DIR>          ..
+2026/01/07 水  11:31            19,900 1.jpg
+2025/11/18 火  11:19    <DIR>          2025鍵復旧
+2023/10/31 火  14:06               103 230803申光.txt
+2013/04/07 日  16:32           504,086 268490571980.jpg
+2021/04/05 月  04:21           482,920 268493014983.jpg
+2016/03/21 月  20:16               177 B'Plaza.url
+2025/08/04 月  11:04           113,152 breezclickoncehelper.exe
+2015/02/14 土  18:41    <DIR>          Camera
+2024/08/05 月  11:53    <DIR>          capture
+2026/01/28 水  18:26    <DIR>          car-pickup
+2026/01/20 火  00:27    <DIR>          car-pickup-backups
+2026/01/19 月  10:42    <DIR>          car-pickup_BACKUP_2026-01-21_1645
+2021/09/20 月  10:37    <DIR>          ChangeTime
+2026/01/19 月  01:33             2,729 Create Next App.lnk
+2021/06/22 火  00:04        64,163,801 csv-plus-setup-0.7.6.exe
+2026/01/27 火  11:28    <DIR>          DeskTop
+2022/03/08 火  23:01    <DIR>          desktop20220225
+2021/06/15 火  11:32    <DIR>          Desktpo_backUp_20210404
+2023/06/16 金  23:08             1,004 Dropbox.lnk
+2021/03/11 木  11:17    <DIR>          Easeus 11 11_17
+2023/10/19 木  10:56           636,349 exhibition_purchase_sheet_1697680212.zip
+2025/05/31 土  12:01           664,837 exhibition_purchase_sheet_1748656055.zip
+2023/08/15 火  00:20    <DIR>          Family
+2025/12/20 土  00:03             8,533 findstr1.txt
+2025/10/29 水  15:52               235 Free-Port-3000.bat
+2023/02/18 土  12:12         1,521,503 genkasyoukyakuv2.zip
+2026/01/28 水  18:17        66,292,520 Git-2.52.0-64-bit.exe
+2025/11/20 木  09:36               130 gmailアプリパスワード.txt
+2026/01/28 水  16:29                53 google2c53707cecd52ff4.html
+2016/06/05 日  15:39                26 Googleマップ投稿型HP.txt
+2023/05/19 金  12:57             1,095 gpt_source.txt
+2025/05/04 日  00:10    <DIR>          hpb22_2_1
+2025/05/01 木  10:23         1,772,824 hpb22_3_dl.exe
+2025/02/02 日  17:29                40 hugo_install.txt
+2026/01/21 水  18:27    <DIR>          jt153c
+2022/08/31 水  11:11    <DIR>          memo
+2023/02/21 火  09:41         7,939,008 MicrosoftDefaults.exe
+2022/02/20 日  15:54            13,577 NEW長3号h3.odt
+2025/12/17 水  00:34            38,435 next-server (v14.2.5).txt
+2022/07/26 火  20:52             9,216 OpenInternetExplorer.exe
+2025/11/27 木  18:19             2,345 page.tsx
+2018/10/12 金  19:32            23,552 pass.xlsx
+2025/10/29 水  17:39             4,164 phase1-app-files.zip
+2020/08/20 木  20:45                25 postmap.txt
+2022/03/03 木  03:04             4,666 reg.reg
+2025/12/20 土  02:45    <DIR>          rentacar-mvp-phase1-v1.1
+2025/10/29 水  16:10               610 rentacar-mvp-phase1-v1.1.zip
+2025/12/29 月  12:52    <DIR>          rentacar_backup
+2025/11/27 木  18:42               918 reservations.ts
+2020/07/26 日  19:51                48 ruby.txt
+2025/10/14 火  00:04    <DIR>          s400hv
+2021/11/24 水  11:34                12 soni-sonpo.txt
+2025/10/29 水  15:53               275 Start-Rentacar-MVP-3001.bat
+2025/08/24 日  17:48            20,997 statement_202504.pdf
+2025/04/04 金  23:16             3,004 syomeisyo.zip
+2022/01/26 水  10:00             1,052 text3.rfc822-headers
+2022/03/02 水  10:48             1,983 Vysor.lnk
+2025/12/21 日  03:27            45,020 {url  No image}.txt
+2026/01/21 水  18:28    <DIR>          エラー画像
+2024/10/24 木  10:16            11,279 オアスス.odt
+2025/12/20 土  04:19             7,228 コマンド プロンプト - CProgram FilesMySQLMySQL Server 8.0binmysql.exe  -u root -p.txt
+2025/12/21 日  02:14           748,670 コマンド プロンプト - more  +60 appadminvehicles-mysqlpage.tsx.txt
+2025/12/21 日  02:30             1,301 コマンド プロンプト.txt
+2022/03/18 金  09:47               982 ネットストック・ハイスピード.lnk
+2025/10/25 土  12:59    <DIR>          パスワード復旧xls
+2021/12/24 金  10:30         1,149,254 ホイールドーリー.pdf
+2025/05/14 水  23:49    <DIR>          レンタカーWP
+2025/12/29 月  12:41    <DIR>          レンタカーサイト
+2025/11/16 日  20:21               185 ローカルテスト起動.txt
+2026/01/23 金  00:25    <DIR>          事務方
+2025/12/04 木  01:00    <DIR>          山崎さんフリード
+2019/01/11 金  19:47           405,646 店頭案内.jpg
+2025/03/28 金  10:45                28 損保ジャパンFAX.txt
+2017/12/25 月  13:33                89 数式.txt
+2020/04/01 水  10:41             1,876 新規データベース.odb
+2025/10/05 日  11:40               376 申請用総合ソフトのショートカット.appref-ms
+2023/01/30 月  23:41             1,983 自動車修理見積書Light.lnk
+2025/01/25 土  12:00    <DIR>          自賠責ファイル
+2022/03/05 土  23:04    <DIR>          車
+2022/10/28 金  10:56    <DIR>          軽バンレンタリース
+2022/01/06 木  18:13           108,002 電動ドリルリコール.jpg
+              54 個のファイル         146,731,823 バイト
+              29 個のディレクトリ  213,731,889,152 バイトの空き領域
+
+C:\Users\100ta>cd C:\Users\100ta\Desktop\car-pickup
+
+C:\Users\100ta\Desktop\car-pickup>dir
+ ドライブ C のボリューム ラベルは OS です
+ ボリューム シリアル番号は 58C5-B5B7 です
+
+ C:\Users\100ta\Desktop\car-pickup のディレクトリ
+
+2026/01/28 水  18:26    <DIR>          .
+2026/01/28 水  18:17    <DIR>          ..
+2026/01/12 月  10:17               619 .env.local
+2026/01/06 火  12:35               480 .gitignore
+2026/01/21 水  18:24    <DIR>          .next
+2026/01/28 水  16:11    <DIR>          app
+2026/01/06 火  15:13                 0 dir
+2026/01/06 火  15:19                23 envlocal.tmp
+2026/01/06 火  12:35               465 eslint.config.mjs
+2026/01/12 月  10:25    <DIR>          lib
+2026/01/07 水  16:02             1,225 middleware.ts
+2026/01/21 水  18:24               247 next-env.d.ts
+2026/01/19 月  10:32            66,682 next-server (v16.1.1).txt
+2026/01/12 月  11:22               496 next.config.ts
+2026/01/12 月  23:44    <DIR>          node_modules
+2026/01/12 月  23:44           312,125 package-lock.json
+2026/01/12 月  23:44               782 package.json
+2026/01/06 火  12:35                94 postcss.config.mjs
+2026/01/06 火  15:36                 0 powershell
+2026/01/21 水  18:24    <DIR>          public
+2026/01/06 火  12:35             1,450 README.md
+2026/01/06 火  15:00               686 tsconfig.json
+2026/01/06 火  15:33                 0 type
+2026/01/21 水  17:10             1,221 Windows PowerShell.txt
+2026/01/06 火  15:18                21 __where_am_i__.txt
+2026/01/21 水  16:55             3,549 コマンド プロンプト - CProgram FilesMySQLMySQL Server 8.0binmysql  -u root -p.txt
+2026/01/07 水  16:18            21,064 コマンド プロンプト - CProgram FilesMySQLMySQL Server 8.0binmysql.exe  -u root -p.txt
+2026/01/14 水  20:40            10,345 コマンド プロンプト - more  +104 appadminpickuppage.tsx.txt
+2026/01/28 水  18:26             3,528 コマンド プロンプト.txt
+2026/01/19 月  00:07               776 メモ書き.txt
+              23 個のファイル             425,878 バイト
+               7 個のディレクトリ  213,731,512,320 バイトの空き領域
+
+C:\Users\100ta\Desktop\car-pickup>git init
+Initialized empty Git repository in C:/Users/100ta/Desktop/car-pickup/.git/
+
+C:\Users\100ta\Desktop\car-pickup>git add .
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/globals.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/layout.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/page.tsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'eslint.config.mjs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'next.config.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'postcss.config.mjs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/sw.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'tsconfig.json', LF will be replaced by CRLF the next time Git touches it
+
+C:\Users\100ta\Desktop\car-pickup>git commit -m "initial commit: pickup site"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got '100ta@100take51.(none)')
+
+C:\Users\100ta\Desktop\car-pickup>

@@ -1,0 +1,72 @@
+Microsoft Windows [Version 10.0.26200.7623]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\100ta>"C:\Program Files\MySQL\MySQL Server 8.0\bin\mysql" -u root -p
+Enter password: ********
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 21
+Server version: 8.0.44 MySQL Community Server - GPL
+
+Copyright (c) 2000, 2025, Oracle and/or its affiliates.
+
+Oracle is a registered trademark of Oracle Corporation and/or its
+affiliates. Other names may be trademarks of their respective
+owners.
+
+Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
+
+mysql> USE car_pickup_db;
+Database changed
+mysql> SELECT id, created_at, updated_at, LEFT(endpoint, 60) ep
+    -> FROM admin_push_subscriptions
+    -> ORDER BY id DESC
+    -> LIMIT 3;
+ERROR 1054 (42S22): Unknown column 'updated_at' in 'field list'
+mysql> USE car_pickup_db;
+Database changed
+mysql> SELECT id, created_at, updated_at, LEFT(endpoint, 60) ep
+    -> FROM admin_push_subscriptions
+    -> ORDER BY id DESC
+    -> LIMIT 3;
+ERROR 1054 (42S22): Unknown column 'updated_at' in 'field list'
+mysql> USE car_pickup_db;
+Database changed
+mysql> SHOW COLUMNS FROM admin_push_subscriptions;
++------------+-----------------+------+-----+-------------------+-------------------+
+| Field      | Type            | Null | Key | Default           | Extra             |
++------------+-----------------+------+-----+-------------------+-------------------+
+| id         | bigint unsigned | NO   | PRI | NULL              | auto_increment    |
+| endpoint   | text            | NO   | UNI | NULL              |                   |
+| p256dh     | varchar(255)    | NO   |     | NULL              |                   |
+| auth       | varchar(255)    | NO   |     | NULL              |                   |
+| created_at | timestamp       | NO   |     | CURRENT_TIMESTAMP | DEFAULT_GENERATED |
++------------+-----------------+------+-----+-------------------+-------------------+
+5 rows in set (0.18 sec)
+
+mysql> SELECT id, created_at, LEFT(endpoint, 60) AS ep
+    -> FROM admin_push_subscriptions
+    -> ORDER BY id DESC
+    -> LIMIT 5;
++----+---------------------+--------------------------------------------------------------+
+| id | created_at          | ep                                                           |
++----+---------------------+--------------------------------------------------------------+
+|  1 | 2026-01-19 00:50:01 | https://fcm.googleapis.com/fcm/send/dHd_l87whYc:APA91bHjthQs |
++----+---------------------+--------------------------------------------------------------+
+1 row in set (0.01 sec)
+
+mysql> SELECT id,
+    ->        created_at,
+    ->        LENGTH(p256dh) AS p256dh_len,
+    ->        LENGTH(auth)   AS auth_len,
+    ->        LEFT(endpoint, 60) AS ep
+    -> FROM admin_push_subscriptions
+    -> ORDER BY id DESC
+    -> LIMIT 5;
++----+---------------------+------------+----------+--------------------------------------------------------------+
+| id | created_at          | p256dh_len | auth_len | ep                                                           |
++----+---------------------+------------+----------+--------------------------------------------------------------+
+|  1 | 2026-01-19 00:50:01 |         87 |       22 | https://fcm.googleapis.com/fcm/send/dHd_l87whYc:APA91bHjthQs |
++----+---------------------+------------+----------+--------------------------------------------------------------+
+1 row in set (0.00 sec)
+
+mysql>

@@ -1,0 +1,229 @@
+Microsoft Windows [Version 10.0.26200.7462]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\100ta>const json = await safeReadJson(res);
+'const' は、内部コマンドまたは外部コマンド、
+操作可能なプログラムまたはバッチ ファイルとして認識されていません。
+
+C:\Users\100ta>if (!res.ok || !json?.ok) {
+|| の使い方が誤っています。
+
+C:\Users\100ta>  alert(`一括更新失敗：${getErrorMessage(res, json)}`);
+'alert' は、内部コマンドまたは外部コマンド、
+操作可能なプログラムまたはバッチ ファイルとして認識されていません。
+
+C:\Users\100ta>  return;
+'return' は、内部コマンドまたは外部コマンド、
+操作可能なプログラムまたはバッチ ファイルとして認識されていません。
+
+C:\Users\100ta>}
+'}' は、内部コマンドまたは外部コマンド、
+操作可能なプログラムまたはバッチ ファイルとして認識されていません。
+
+C:\Users\100ta>cd /d C:\Users\100ta\Desktop\car-pickup
+
+C:\Users\100ta\Desktop\car-pickup>dir
+ ドライブ C のボリューム ラベルは OS です
+ ボリューム シリアル番号は 58C5-B5B7 です
+
+ C:\Users\100ta\Desktop\car-pickup のディレクトリ
+
+2026/01/13 火  00:21    <DIR>          .
+2026/01/12 月  11:00    <DIR>          ..
+2026/01/12 月  10:17               619 .env.local
+2026/01/06 火  12:35               480 .gitignore
+2026/01/13 火  00:24    <DIR>          .next
+2026/01/12 月  10:12    <DIR>          app
+2026/01/06 火  15:13                 0 dir
+2026/01/06 火  15:19                23 envlocal.tmp
+2026/01/06 火  12:35               465 eslint.config.mjs
+2026/01/12 月  10:25    <DIR>          lib
+2026/01/07 水  16:02             1,225 middleware.ts
+2026/01/12 月  23:45               247 next-env.d.ts
+2026/01/07 水  15:42             3,516 next-server (v16.1.1).txt
+2026/01/12 月  11:22               496 next.config.ts
+2026/01/12 月  23:44    <DIR>          node_modules
+2026/01/12 月  23:44           312,125 package-lock.json
+2026/01/12 月  23:44               782 package.json
+2026/01/06 火  12:35                94 postcss.config.mjs
+2026/01/06 火  15:36                 0 powershell
+2026/01/13 火  00:24    <DIR>          public
+2026/01/06 火  12:35             1,450 README.md
+2026/01/06 火  15:00               686 tsconfig.json
+2026/01/06 火  15:33                 0 type
+2026/01/06 火  15:18                21 __where_am_i__.txt
+2026/01/07 水  16:18            21,064 コマンド プロンプト - CProgram FilesMySQLMySQL Server 8.0binmysql.exe  -u root -p.txt
+2026/01/13 火  00:21           174,815 コマンド プロンプト.txt
+              19 個のファイル             518,108 バイト
+               7 個のディレクトリ  210,987,249,664 バイトの空き領域
+
+C:\Users\100ta\Desktop\car-pickup>npm run dev
+
+> car-pickup@0.1.0 dev
+> next dev --webpack -p 3001
+
+▲ Next.js 16.1.1 (webpack)
+- Local:         http://localhost:3001
+- Network:       http://192.168.10.106:3001
+- Environments: .env.local
+
+✓ Starting...
+○ (serwist) Serwist is disabled.
+○ (serwist) Serwist is disabled.
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+✓ Ready in 9.9s
+○ Compiling /admin/login ...
+ GET /admin/login?next=%2Fadmin%2Fpickup 200 in 8.2s (compile: 7.8s, proxy.ts: 21ms, render: 383ms)
+ GET /manifest.webmanifest 200 in 1297ms (compile: 1261ms, render: 36ms)
+ GET /admin/login?next=%2Fadmin%2Fpickup 200 in 244ms (compile: 93ms, proxy.ts: 53ms, render: 97ms)
+ GET /manifest.webmanifest 200 in 33ms (compile: 21ms, render: 12ms)
+ GET /pwa/icon-192.png 404 in 1155ms (compile: 965ms, render: 191ms)
+ GET /pwa/icon-192.png 404 in 54ms (compile: 7ms, render: 46ms)
+ POST /api/admin/login 401 in 476ms (compile: 440ms, proxy.ts: 20ms, render: 15ms)
+ POST /api/admin/login 200 in 47ms (compile: 4ms, proxy.ts: 10ms, render: 33ms)
+ GET /admin/login?next=%2Fadmin%2Fpickup 200 in 86ms (compile: 44ms, proxy.ts: 12ms, render: 30ms)
+ POST /api/admin/login 200 in 33ms (compile: 5ms, proxy.ts: 18ms, render: 10ms)
+ GET /admin/login?next=%2Fadmin%2Fpickup 200 in 51ms (compile: 6ms, proxy.ts: 15ms, render: 30ms)
+ POST /api/admin/login 200 in 42ms (compile: 7ms, proxy.ts: 23ms, render: 11ms)
+ GET /admin/login?next=%2Fadmin%2Fpickup 200 in 69ms (compile: 12ms, proxy.ts: 14ms, render: 43ms)
+ POST /api/admin/login 200 in 33ms (compile: 5ms, proxy.ts: 16ms, render: 11ms)
+ GET /admin/login?next=%2Fadmin%2Fpickup 200 in 48ms (compile: 6ms, proxy.ts: 12ms, render: 29ms)
+ POST /api/admin/login 200 in 36ms (compile: 6ms, proxy.ts: 18ms, render: 12ms)
+ GET /admin/login?next=%2Fadmin%2Fpickup 200 in 70ms (compile: 10ms, proxy.ts: 14ms, render: 46ms)
+ POST /api/admin/login 200 in 26ms (compile: 5ms, proxy.ts: 11ms, render: 9ms)
+ GET /admin/login?next=%2Fadmin%2Fpickup 200 in 40ms (compile: 5ms, proxy.ts: 11ms, render: 24ms)
+ GET /admin/login?next=%2Fadmin%2Fpickup 200 in 685ms (compile: 14ms, proxy.ts: 34ms, render: 637ms)
+ GET /manifest.webmanifest 200 in 30ms (compile: 13ms, render: 17ms)
+ GET /pwa/icon-192.png 404 in 112ms (compile: 26ms, render: 86ms)
+バッチ ジョブを終了しますか (Y/N)?
+npm run build
+
+C:\Users\100ta\Desktop\car-pickup>npm run build
+
+> car-pickup@0.1.0 build
+> next build --webpack
+
+▲ Next.js 16.1.1 (webpack)
+- Environments: .env.local
+
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+  Creating an optimized production build ...
+✓ (serwist) Bundling the service worker script with the URL '/sw.js' and the scope '/'...
+Failed to compile.
+
+./app/admin/pickup/page.tsx
+Error:   × Expression expected
+     ╭─[C:\Users\100ta\Desktop\car-pickup\app\admin\pickup\page.tsx:115:1]
+ 112 │     });
+ 113 │
+ 114 │     const json = await safeReadJson(res);
+ 115 │ ...
+     · ───
+ 116 │ if (!res.ok || !json?.ok) {
+ 117 │   alert(`保存失敗：${getErrorMessage(res, json)}`);
+ 117 │   return;
+     ╰────
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./app/admin/pickup/page.tsx
+
+
+> Build failed because of webpack errors
+
+C:\Users\100ta\Desktop\car-pickup>npm run dev
+
+> car-pickup@0.1.0 dev
+> next dev --webpack -p 3001
+
+▲ Next.js 16.1.1 (webpack)
+- Local:         http://localhost:3001
+- Network:       http://192.168.10.106:3001
+- Environments: .env.local
+
+✓ Starting...
+○ (serwist) Serwist is disabled.
+○ (serwist) Serwist is disabled.
+⚠ The "middleware" file convention is deprecated. Please use "proxy" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy
+✓ Ready in 3.6s
+○ Compiling /admin/login ...
+ GET /admin/login?next=%2Fadmin%2Fpickup 200 in 3.9s (compile: 3.6s, proxy.ts: 14ms, render: 301ms)
+ GET /manifest.webmanifest 200 in 1166ms (compile: 1116ms, render: 50ms)
+ GET /sw.js 404 in 1100ms (compile: 956ms, render: 145ms)
+ GET /admin/login?next=%2Fadmin%2Fpickup 200 in 446ms (compile: 130ms, proxy.ts: 44ms, render: 271ms)
+ GET /pwa/icon-192.png 404 in 461ms (compile: 302ms, render: 159ms)
+ GET /manifest.webmanifest 200 in 14ms (compile: 7ms, render: 7ms)
+ GET /pwa/icon-192.png 404 in 46ms (compile: 6ms, render: 40ms)
+ POST /api/admin/login 200 in 398ms (compile: 363ms, proxy.ts: 12ms, render: 22ms)
+ GET /admin/login?next=%2Fadmin%2Fpickup 200 in 127ms (compile: 64ms, proxy.ts: 7ms, render: 56ms)
+ GET /admin/login?next=%2Fadmin%2Fpickup 200 in 56ms (compile: 13ms, proxy.ts: 14ms, render: 30ms)
+ GET /manifest.webmanifest 200 in 20ms (compile: 12ms, render: 8ms)
+ GET /pwa/icon-192.png 404 in 577ms (compile: 455ms, render: 121ms)
+バッチ ジョブを終了しますか (Y/N)? y
+
+
+C:\Users\100ta\Desktop\car-pickup>cd /d C:\Users\100ta\Desktop\car-pickup
+
+C:\Users\100ta\Desktop\car-pickup>powershell -Command "(Get-Content .\app\admin\pickup\page.tsx)[108..125]"
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ id, ...patch }),
+    });
+
+    const json = await safeReadJson(res);
+...
+if (!res.ok || !json?.ok) {
+  alert(`菫晏ｭ伜､ｱ謨暦ｼ・{getErrorMessage(res, json)}`);
+  return;
+}
+
+    setSavedAt((p) => ({ ...p, [id]: Date.now() }));
+  }
+
+  function scheduleMemoSave(id: number, nextMemo: string) {
+    // 譌｢蟄倥ち繧､繝槭・縺後≠繧後・豁｢繧√ｋ
+    const t = memoTimers.current.get(id);
+    if (t) clearTimeout(t);
+
+C:\Users\100ta\Desktop\car-pickup>cd /d C:\Users\100ta\Desktop\car-pickup
+
+C:\Users\100ta\Desktop\car-pickup>findstr /n "\.\.\." app\admin\pickup\page.tsx
+108:    setSaving((p) => ({ ...p, [id]: true }));
+113:      body: JSON.stringify({ id, ...patch }),
+121:      setSaving((p) => ({ ...p, [id]: false }));
+125:    setSaving((p) => ({ ...p, [id]: false }));
+126:    setSavedAt((p) => ({ ...p, [id]: Date.now() }));
+173:    setRows((prev) => prev.map((r) => (selected[r.id] ? { ...r, status: nextStatus } : r)));
+
+C:\Users\100ta\Desktop\car-pickup>more +104 app\admin\pickup\page.tsx
+  }
+
+  async function saveRowNow(id: number, patch: { status: Status; memo: string | null }) {
+    setSaving((p) => ({ ...p, [id]: true }));
+
+    const res = await fetch("/api/admin/pickup", {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ id, ...patch }),
+    });
+
+    const json = await safeReadJson(res);
+
+    // 笘・％縺薙↓谿九▲縺ｦ縺溘・..縲阪ｒ蜑企勁・医％繧後′繝薙Ν繝峨ｒ谿ｺ縺励※縺滂ｼ・
+    if (!res.ok || !json?.ok) {
+      alert(`菫晏ｭ伜､ｱ謨暦ｼ・{getErrorMessage(res, json)}`);
+      setSaving((p) => ({ ...p, [id]: false }));
+      return;
+    }
+
+    setSaving((p) => ({ ...p, [id]: false }));
+    setSavedAt((p) => ({ ...p, [id]: Date.now() }));
+  }
+
+  function scheduleMemoSave(id: number, nextMemo: string) {
+    // 譌｢蟄倥ち繧､繝槭・縺後≠繧後・豁｢繧√ｋ
+    const t = memoTimers.current.get(id);
+    if (t) clearTimeout(t);
+
+-- More (37%) --
