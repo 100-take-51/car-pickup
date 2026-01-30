@@ -2,6 +2,7 @@ import "./pickup.css";
 import PickupForm from "./PickupForm";
 import type { Metadata } from "next";
 import Image from "next/image";
+import HeroAd from "./HeroAd";
 
 export const metadata: Metadata = {
   title: "廃車・不動車の引取相談｜名義違い・相続や代理の方も対応",
@@ -90,6 +91,8 @@ export default function PickupPage() {
           </p>
         </header>
 
+<HeroAd />
+
 <section className="card" aria-label="サービス紹介">
   <div style={{ borderRadius: 16, overflow: "hidden" }}>
     <Image
@@ -121,7 +124,7 @@ export default function PickupPage() {
 </section>
 
         {/* フォーム（最優先） */}
-        <section className="card">
+        <section className="card" id="pickup-form">
           <h2>廃車・不動車 引取のご相談フォーム</h2>
           <PickupForm />
         </section>

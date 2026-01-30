@@ -98,3 +98,142 @@ legend { padding: 0 6px; color: var(--muted); font-size: 12px; }
 
 .note { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.5; }
 .footer { margin-top: 14px; text-align: center; color: var(--muted); }
+
+/* ===== HeroAd（画像に寄せたHTML版） ===== */
+
+.heroAd {
+  position: relative;
+  border-radius: 16px;
+  overflow: hidden;
+  min-height: 520px;
+  border: 1px solid rgba(255,255,255,.10);
+  background: rgba(255,255,255,.02);
+}
+
+.heroAdBg {
+  position: absolute !important;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.35; /* 背景として薄く */
+  pointer-events: none;
+}
+
+.heroAdOverlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0,0,0,.45),
+    rgba(0,0,0,.15) 40%,
+    rgba(0,0,0,.55)
+  );
+  pointer-events: none;
+}
+
+.heroAdInner {
+  position: relative;
+  padding: 18px 16px 16px;
+}
+
+.heroAdKicker {
+  margin: 0 0 10px;
+  font-weight: 900;
+  letter-spacing: .02em;
+  text-shadow: 0 1px 0 rgba(0,0,0,.35);
+}
+
+.heroAdTitle {
+  margin: 0 0 14px;
+  font-size: 22px;
+  line-height: 1.25;
+  font-weight: 950;
+  text-shadow: 0 2px 0 rgba(0,0,0,.35);
+}
+
+.heroAdRibbon {
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 16px;
+  font-weight: 950;
+  transform: rotate(-8deg);
+  transform-origin: left center;
+  margin: 6px 0 14px;
+  background: rgba(255, 200, 0, 0.26);
+  border: 1px solid rgba(255, 200, 0, 0.55);
+  box-shadow: 0 8px 18px rgba(0,0,0,.18);
+}
+
+.heroAdRibbon span {
+  display: inline-block;
+  font-style: italic; /* 斜体 */
+  text-shadow: 0 1px 0 rgba(0,0,0,.20);
+}
+
+.heroAdLead {
+  margin: 0 0 12px;
+  line-height: 1.65;
+  text-shadow: 0 1px 0 rgba(0,0,0,.30);
+}
+
+.heroAdBadges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0 14px;
+}
+
+.heroAdBadge {
+  padding: 6px 10px;
+  border-radius: 999px;
+  font-weight: 900;
+  font-size: 12px;
+  background: rgba(255,255,255,.10);
+  border: 1px solid rgba(255,255,255,.16);
+  backdrop-filter: blur(4px);
+}
+
+.heroAdCtas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.heroAdBtn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 14px;
+  border-radius: 14px;
+  font-weight: 950;
+  text-decoration: none;
+  border: 1px solid rgba(255,255,255,.22);
+  background: rgba(255,255,255,.10);
+}
+
+.heroAdTel {
+  font-weight: 950;
+  text-decoration: underline;
+}
+
+.heroAdNote {
+  margin: 12px 0 0;
+  font-size: 12px;
+  opacity: 0.95;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .heroAd {
+    min-height: 560px;
+  }
+  .heroAdTitle {
+    font-size: 20px;
+  }
+  .heroAdRibbon {
+    transform: rotate(-10deg);
+  }
+}
+
